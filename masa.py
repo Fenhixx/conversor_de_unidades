@@ -22,3 +22,13 @@ def toneladas_a_kilogramos(t):
 def toneladas_a_gramos(t):
     g = t * 1000000
     return g
+
+if __name__ == "__main__":
+    # Ejemplos de uso
+    print("Ejemplos de conversión de masa:")
+    print(" kg * 1000 a g:", kilogramos_a_gramos(1000))
+    print(" kg / 1000 a t:",kilogramos_a_toneladas (98.6))
+    print("g / 1000 a kg:", gramos_a_kilogramos(0))
+    print("g / 1000000 a t:", gramos_a_toneladas(273.15))
+    print(" t * 1000 a kg:", toneladas_a_kilogramos(-40))
+    print("t * 1000000 a g:", toneladas_a_gramos(100))

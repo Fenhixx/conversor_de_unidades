@@ -9,7 +9,7 @@
 
 """ Recuerda que cada uno de los módulos, deben incluir el bloque if __name__ == "__main__" para sus pruebas en cada módulo. """
 #vicente ponce vicente reyes
-import temperatura
+import temperatura,masa,tiempo
 def main():
     while True:
         # Muestra el menú principal
@@ -68,51 +68,51 @@ def main():
                 print("El resultado es: ", respuesta)
 
             elif opcion == 7:
-                respuesta = temperatura.kilogramos_a_gramos(valor_inicial)
+                respuesta = masa.kilogramos_a_gramos(valor_inicial)
                 print("El resultado es: ", respuesta)
 
             elif opcion == 8:
-                respuesta = temperatura.kilogramos_a_toneladas(valor_inicial)
+                respuesta = masa.kilogramos_a_toneladas(valor_inicial)
                 print("El resultado es: ", respuesta)
 
             elif opcion == 9:
-                respuesta = temperatura.gramos_a_kilogramos(valor_inicial)
+                respuesta = masa.gramos_a_kilogramos(valor_inicial)
                 print("El resultado es: ", respuesta)
 
             elif opcion == 10:
-                respuesta = temperatura.gramos_a_toneladas(valor_inicial)
+                respuesta = masa.gramos_a_toneladas(valor_inicial)
                 print("El resultado es: ", respuesta)
 
             elif opcion == 11:
-                respuesta = temperatura.toneladas_a_kilogramos(valor_inicial)
+                respuesta = masa.toneladas_a_kilogramos(valor_inicial)
                 print("El resultado es: ", respuesta)
 
             elif opcion == 12:
-                respuesta = temperatura.toneladas_a_gramos(valor_inicial)
+                respuesta = masa.toneladas_a_gramos(valor_inicial)
                 print("El resultado es: ", respuesta)
 
             elif opcion == 13:
-                respuesta = temperatura.segundos_a_minutos(valor_inicial)
+                respuesta = tiempo.segundos_a_minutos(valor_inicial)
                 print("El resultado es: ", respuesta)
 
             elif opcion == 14:
-                respuesta = temperatura.segundos_a_horas(valor_inicial)
+                respuesta = tiempo.segundos_a_horas(valor_inicial)
                 print("El resultado es: ", respuesta)
 
             elif opcion == 15:
-                respuesta = temperatura.minutos_a_segundos(valor_inicial)
+                respuesta = tiempo.minutos_a_segundos(valor_inicial)
                 print("El resultado es: ", respuesta)
 
             elif opcion == 16:
-                respuesta = temperatura.minutos_a_horas(valor_inicial)
+                respuesta = tiempo.minutos_a_horas(valor_inicial)
                 print("El resultado es: ", respuesta)
 
             elif opcion == 17:
-                respuesta = temperatura.horas_a_segundos(valor_inicial)
+                respuesta = tiempo.horas_a_segundos(valor_inicial)
                 print("El resultado es: ", respuesta)
 
             elif opcion == 18:
-                respuesta = temperatura.horas_a_minutos(valor_inicial)
+                respuesta = tiempo.horas_a_minutos(valor_inicial)
                 print("El resultado es: ", respuesta)
 
 
@@ -124,3 +124,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+    #https://github.com/Fenhixx/conversor_de_unidades.git
+    
